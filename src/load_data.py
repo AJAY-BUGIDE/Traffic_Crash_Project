@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 #Loading dataset
-filepath = "D:\\Ajay\\Traffic_Crash_Project\\Dataset\\Traffic_CrashesData.csv"
+filepath = r"D:\\Ajay\\Dataset\\Traffic_CrashesData.csv"
 
 # load csv
 df = pd.read_csv(filepath)
